@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hello>
+  <Lang>PHP</Lang>
+  <In>
+    <Ele name="name" type="s" min="1" />
+  </In>
+  <Out>
+    <Ele name="code" type="s" min="1" />
+    <Ele name="msg" type="s" min="1" />
+    <Ele name="data" type="m" min="1" >
+      <Ele name="test1" type="a" min="1" max="5" />
+      <Ele name="test2" type="m" min="1" >
+        <Ele name="test3" type="a" min="1" max="5" />
+      </Ele>
+    </Ele>
+  </Out>
+</Hello>
